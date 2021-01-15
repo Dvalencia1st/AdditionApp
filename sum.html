@@ -1,0 +1,29 @@
+<html>
+<head>
+  <title>Sum of Two Numbers</title>
+  <body bgcolor="magenta">
+  <center><b>
+  <u><h1>Sum of Two Numbers</h1></u></b>
+  <script type="text/javascript">
+
+  function sum(){
+    var num1,num2,result;
+    num1=Number(document.getElementById("first").
+         value);
+    num2=Number(document.getElementById("second").
+         value);
+    result=num1+num2;
+    document.getElementById("answer").value=result;
+  }
+  
+     </script>
+  </head>
+  <body>
+    Enter first number:<input id="first">
+    Enter second number:<input id="second">
+    <button onclick="sum()">Add</button>
+    <input id="result">
+  </body>
+<html>
+
+
